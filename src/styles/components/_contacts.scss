@@ -63,7 +63,7 @@
 .contacts__info {
     @include flex($direction: column, $gap: 20px);
     
-    > div {
+    > a {
         @include flex($items: center, $gap: 16px);
     }
 
